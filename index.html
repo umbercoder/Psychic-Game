@@ -2,41 +2,43 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Psychic Game</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <title>Psychic Game</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
 </head>
 
 <body>
 
-
-    <div id="game">   
-         <h1>The Psychic Game</h1>
-         <p>Guess what letter I'm thinking of!</p>
-    <div id="data">
-        <p id="win">Total Wins: </p>
-        <p id="loss"></p>Total Losses: </p>
-        <p id="guessleft"></p>Guesses Left: </p>
-        <p id = "sofar"></p>Your Guesses so far: </p>
-
-
-
-
-<script type="text/javascript" src="assets/javascript/game.js"></script> -->
-<!-- <script type="text/javascript">
-    var wincount = 0;
-    var losscount = 0;
-    var guesscount = 9;
-    var guesslist = [];
-    var guessIndex = 0; -->
-
-
-</script>
-
-        
+    <div class="jumbotron">
+        <div id="game">
+            <h1>The Psychic Game</h1>
+            <br>
+            <div id="data2">
+                <p>Guess what letter I'm thinking of!</p>
+                <div id="data">
+                    <p id="win">Total Wins: </p>
+                    <p id="loss">Total Losses: </p>
+                    <p id="guessleft">Guesses Left: </p>
+                    <p id="sofar">Your Guesses so far: </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
 </html>
-
